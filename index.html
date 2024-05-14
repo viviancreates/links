@@ -11,6 +11,10 @@
         padding-top: 40px;
         padding-bottom: 40px;
         background-color: #232946;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
 
       .banner-image {
@@ -18,11 +22,17 @@
         height: 128px;
         object-fit: cover;
         border-radius: 128px;
-        border: 1rem solid;
+        display: flex;
+        justify-content: center;
+        border: solid #fffffe;
       }
 
       .name {
-        background-color:#fffffe;
+        color:#fffffe;
+        display: flex;
+        justify-content: center;
+        font-size: 28px;
+        padding: 20px;
       }
 
       .social-icons a {
@@ -34,16 +44,18 @@
         background-color: #eebbc3;
         display: flex;
         align-items: center;
+        padding: 5px;
       }
       
       .link a {
         color: #232946;
         text-decoration: none;
-        display: flex;
-        align-items: center;
+        text-align: center;
+        flex-grow: 1;
       }
 
       .icons {
+        display: flex;
         width: 48px;
         height: 48px;
         border-radius: 48px;
@@ -55,6 +67,7 @@
         flex-direction: column;
         gap: 30px;
         max-width: 500px;
+        justify-content: space-around;
       }
 
     </style>
