@@ -31,12 +31,16 @@
       }
 
       .link {
-        background-color: #232946;
+        background-color: #eebbc3;
+        display: flex;
+        align-items: center;
       }
-
+      
       .link a {
-        color: #eebbc3;
+        color: #232946;
         text-decoration: none;
+        display: flex;
+        align-items: center;
       }
 
       .icons {
@@ -45,6 +49,14 @@
         border-radius: 48px;
         object-fit: cover;
       }
+
+      .social-icons{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 500px;
+      }
+
     </style>
 
   </head>
@@ -61,25 +73,32 @@
 
 <div class = "social-icons">
  
+  <div class="link">
   <img src="./img/thumbnail/github.png" alt="Github Icon" class="icons">
-
   <a href="https://github.com/viviancreates" target="_blank">
     Github
   </a>
+  </div>
 
+  <div class="link">
   <img src="./img/thumbnail/linkedin.png" alt="Github Icon" class="icons">
   <a href = "https://www.linkedin.com/in/vivian-d-381a79197/" target="_blank">
     LinkedIn
   </a>
+  </div>
 
+  <div class="link">
   <img src="/img/thumbnail/medium.png" alt="Medium Icon" class="icons">
   <a href="https://medium.com/@viviandavilacodes" target="_blank">
     Medium Profile
   </a>
+  </div>
 
+  <div class="link">
   <a href="https://www.inspiringquotes.com/" target="_blank">
     Motivational Quotes
   </a>
+  </div>
 
 </div>
 
